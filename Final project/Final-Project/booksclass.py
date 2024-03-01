@@ -8,7 +8,7 @@ class Books:
         self.condition = condition
 
     def condition_status(self):
-
+    """ finds condition status """
         if self.condition == 5:
             return ('This books is in great condition')
         elif self.condition >= 3:
